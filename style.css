@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+.tapeUp {
+    height: 100vh;
+}
+
+.tapeUp video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
