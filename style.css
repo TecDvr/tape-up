@@ -10,15 +10,25 @@ header, footer {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: gray;
 }
 
 .tapeUp {
     height: 100vh;
+    width: 100vw;
+}
+
+.tapeUp p {
+    color: white;
+    position: absolute;
 }
 
 .tapeUp video {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     object-fit: cover;
+}
+
+.mobileContainer {
+    height: 100vh;
+    width: 100vw;
 }

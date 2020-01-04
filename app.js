@@ -6,7 +6,7 @@ const video = tapingUp.querySelector('video')
 const controller = new ScrollMagic.Controller();
 
 let scene = new ScrollMagic.Scene({
-    duration: 9000,
+    duration: 4700,
     triggerElement: tapingUp,
     triggerHook: 0
 })
